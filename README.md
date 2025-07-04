@@ -210,6 +210,6 @@ This library uses industry-standard cryptographic libraries and follows WireGuar
 
 ## Support
 
-- 📝 [Documentation](https://github.com/yourusername/wireguard-keygen#readme)
-- 🐛 [Issues](https://github.com/yourusername/wireguard-keygen/issues)
-- 💬 [Discussions](https://github.com/yourusername/wireguard-keygen/discussions) 
+- 📝 [Documentation](https://github.com/princeomonu/wireguard-keygen#readme)
+- 🐛 [Issues](https://github.com/princeomonu/wireguard-keygen/issues)
+- 💬 [Discussions](https://github.com/princeomonu/wireguard-keygen/discussions) 

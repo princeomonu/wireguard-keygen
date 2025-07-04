@@ -1,0 +1,44 @@
+{
+  "name": "wireguard-keygen",
+  "version": "1.0.0",
+  "description": "A TypeScript library for generating WireGuard key pairs using proper Curve25519 cryptography",
+  "main": "dist/keygen.js",
+  "types": "dist/keygen.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx tsc keygen.test.ts --outDir dist --target ES2020 --module commonjs --moduleResolution node --esModuleInterop --skipLibCheck && node dist/keygen.test.js",
+    "prepublishOnly": "npm run build && npm run test",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "wireguard",
+    "vpn",
+    "cryptography",
+    "curve25519",
+    "key-generation",
+    "x25519",
+    "typescript"
+  ],
+  "author": "Omonu Prince Itanyi <omonuitanyi@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/princeomonu/wireguard-keygen.git"
+  },
+  "homepage": "https://github.com/princeomonu/wireguard-keygen#readme",
+  "bugs": {
+    "url": "https://github.com/princeomonu/wireguard-keygen/issues"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
